@@ -49,8 +49,6 @@ function createBlock()
     if (nullList.length > 0)
     {
         var pos = nullList[Math.floor(Math.random() * nullList.length)];
-
-
         var row = getRow(pos);
         var column = getColumn(pos);
 
