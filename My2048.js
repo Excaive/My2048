@@ -23,13 +23,8 @@ function startNewGame()
 {
     //Delete blocks from previous game
     for (var i = 0; i < maxIndex; i++)
-    {
         if (board[i] != null)
-        {
             board[i].dying = true;
-            //board[i].destroy();
-        }
-    }
 
     dialog.hide()
     scoreBar.score = 0;
